@@ -31,6 +31,7 @@ Sample starter template for basic multiplayer game with unity.
 - [How to Make a Multiplayer Game with Mirror and Steam](https://www.youtube.com/watch?v=tFnNfq_EWWM)
 - [How to Make a VR Multiplayer Game](https://www.youtube.com/watch?v=KHWuTBmT1oI)
 - [Mirror Documentation](https://mirror-networking.gitbook.io/docs/)
+- [Mirror VR Example](https://github.com/MirrorNetworking/ExamplesVR)
 
 ## Packages and Assets Used
 
