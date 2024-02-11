@@ -17,7 +17,6 @@ public class NetworkPlayer : NetworkBehaviour
 		if (isLocalPlayer)
 		{
 			// Find SteamVR_Behaviour_Pose components dynamically at runtime
-			// This assumes you have SteamVR_Behaviour_Pose components attached to your controller objects
 			SteamVR_Behaviour_Pose[] poses = FindObjectsOfType<SteamVR_Behaviour_Pose>();
 			foreach (var pose in poses)
 			{
@@ -43,15 +42,22 @@ public class NetworkPlayer : NetworkBehaviour
 			{
 				leftHand.position = leftHandPose.transform.position;
 				leftHand.rotation = leftHandPose.transform.rotation;
+				// Hide the controller model locally
+				if (leftHand.childCount > 0)
+				{
+					leftHand.GetChild(0).gameObject.SetActive(false);
+				}
 			}
 			if (rightHandPose != null)
 			{
 				rightHand.position = rightHandPose.transform.position;
 				rightHand.rotation = rightHandPose.transform.rotation;
+				// Hide the controller model locally
+				if (rightHand.childCount > 0)
+				{
+					rightHand.GetChild(0).gameObject.SetActive(false);
+				}
 			}
-
-			leftHand.gameObject.SetActive(false);
-			rightHand.gameObject.SetActive(false);
 		}
 	}
 }
