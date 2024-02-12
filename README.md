@@ -17,6 +17,13 @@ Sample starter template for basic multiplayer game with unity.
    1. Potentially also acquire friend
 9. Invite friend to game
 
+## Restrictions
+
+- Currently must be friends on Steam
+- Testing with steam requires second account, but can test with [KCP and ParrelSync](https://github.com/Kvan7/Multiplayer-Starter/wiki/Testing-Multiplayer)
+- Both must have game launched rn to join eachother
+- Only can join through steam friends panel
+
 ## Tags
 
 - `RollingBallOnly` - Only just stupid simple rolling ball game. No networking. No pickups
