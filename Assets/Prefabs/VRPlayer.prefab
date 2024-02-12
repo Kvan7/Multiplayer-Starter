@@ -649,7 +649,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.05
+  near clip plane: 0.01
   far clip plane: 300
   field of view: 60
   orthographic: 0
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   handCollider: {fileID: 0}
   clearanceCheckMask:
     serializedVersion: 2
-    m_Bits: 4294967039
+    m_Bits: 4294967295
   hand: {fileID: 0}
 --- !u!1 &160596
 GameObject:
@@ -1255,7 +1255,7 @@ MonoBehaviour:
   handCollider: {fileID: 0}
   clearanceCheckMask:
     serializedVersion: 2
-    m_Bits: 4294967039
+    m_Bits: 4294967295
   hand: {fileID: 0}
 --- !u!1 &165334
 GameObject:
@@ -1432,7 +1432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &446772
 Transform:
   m_ObjectHideFlags: 0
@@ -1455,7 +1455,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171246}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea1001a6626353541ab4d4b39f4c3569, type: 3}
   m_Name: 
@@ -1486,7 +1486,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &413580
 Transform:
   m_ObjectHideFlags: 0
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177230}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea1001a6626353541ab4d4b39f4c3569, type: 3}
   m_Name: 

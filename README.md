@@ -32,6 +32,8 @@ Sample starter template for basic multiplayer game with unity.
 - [How to Make a VR Multiplayer Game](https://www.youtube.com/watch?v=KHWuTBmT1oI)
 - [Mirror Documentation](https://mirror-networking.gitbook.io/docs/)
 - [Mirror VR Example](https://github.com/MirrorNetworking/ExamplesVR)
+- [Multiplayer Mirror](https://www.youtube.com/playlist?list=PLS6sInD7ThM1aUDj8lZrF4b4lpvejB2uB)
+- [Scene Transition Tutorial(Fade not needed use SteamVR_Fade)](https://www.youtube.com/watch?v=JCyJ26cIM0Y)
 
 ## Packages and Assets Used
 
