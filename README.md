@@ -17,6 +17,10 @@ Sample starter template for basic multiplayer game with unity.
    1. Potentially also acquire friend
 9. Invite friend to game
 
+### Demo
+
+For demo you can just download the latest [release](https://github.com/Kvan7/Multiplayer-Starter/releases)
+
 ## Restrictions
 
 - Currently must be friends on Steam
